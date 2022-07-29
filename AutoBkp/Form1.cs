@@ -203,6 +203,7 @@ namespace AutoBkp
             robocopyExec = false;
             log("Sincronismo executado");
             file_read.Text = "";
+            progressBar.Value = 0;  
             if (filaExecucao.Count > 0)
             {
                 executaFila();
@@ -353,37 +354,52 @@ namespace AutoBkp
             string patch_Desktop = "C:\\Users\\" + Environment.UserName + "\\Desktop\\";
             string patch_Documents = "C:\\Users\\" + Environment.UserName + "\\Documents\\";
             string patch_Pictures = "C:\\Users\\" + Environment.UserName + "\\Pictures\\";
-            string[] blacklist = { ".sync_", ".tmp.driveupload" };
+            string[] blacklist = { ".sync_", ".tmp.driveupload", "xxx" };
 
             if (patch.Contains(patch_Desktop, StringComparison.CurrentCultureIgnoreCase)){
-                foreach(string ignore in blacklist)
+                bool exec = true;
+                foreach (string ignore in blacklist)
                 {
-                    if (!patch.Contains(patch_Desktop + ignore, StringComparison.CurrentCultureIgnoreCase))
+                    if (patch.Contains(patch_Documents + ignore, StringComparison.CurrentCultureIgnoreCase))
                     {
-                        sync(1);
+                        exec = false;
                     }
+                }
+                if (exec)
+                {
+                    sync(1);
                 }
             }
             
             if (patch.Contains(patch_Documents, StringComparison.CurrentCultureIgnoreCase))
             {
+                bool exec = true;
                 foreach (string ignore in blacklist)
                 {
-                    if (!patch.Contains(patch_Documents + ignore, StringComparison.CurrentCultureIgnoreCase))
+                    if (patch.Contains(patch_Documents + ignore, StringComparison.CurrentCultureIgnoreCase))
                     {
-                        sync(2);
+                        exec = false;
                     }
+                }
+                if (exec)
+                {
+                    sync(2);
                 }
             }
 
             if (patch.Contains(patch_Pictures, StringComparison.CurrentCultureIgnoreCase))
             {
+                bool exec = true;
                 foreach (string ignore in blacklist)
                 {
-                    if (!patch.Contains(patch_Pictures + ignore, StringComparison.CurrentCultureIgnoreCase))
+                    if (patch.Contains(patch_Documents + ignore, StringComparison.CurrentCultureIgnoreCase))
                     {
-                        sync(3);
+                        exec = false;
                     }
+                }
+                if (exec)
+                {
+                    sync(3);
                 }
             }
         }
