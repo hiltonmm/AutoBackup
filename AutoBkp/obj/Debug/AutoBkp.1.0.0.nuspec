@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AutoBkp</id>
+    <version>1.0.0</version>
+    <authors>AutoBkp</authors>
+    <readme>README.md</readme>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/arquivo-de-backup.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\bin\Debug\net6.0-windows\AutoBkp.runtimeconfig.json" target="lib\net6.0-windows7.0\AutoBkp.runtimeconfig.json" />
+    <file src="C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\bin\Debug\net6.0-windows\AutoBkp.dll" target="lib\net6.0-windows7.0\AutoBkp.dll" />
+    <file src="C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\arquivo-de-backup.ico" target="content\arquivo-de-backup.ico" />
+    <file src="C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\arquivo-de-backup.ico" target="contentFiles\any\net6.0-windows7.0\arquivo-de-backup.ico" />
+    <file src="C:\Users\hilton\source\repos\hiltonmm\AutoBackup\README.md" target="\README.md" />
+  </files>
+</package>

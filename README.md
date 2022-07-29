@@ -1,5 +1,5 @@
 # AUTO BACKUP
-# 1.0.0
+# 1.0.1
 # Desenvolvido por: Hilton M Moreira
 
 A aplicação Auto Backup foi desenvolvida com um propósito especifico de sincronizar as pastas (Desktop, Documents e Pictures) do usuário que estiver logado no Sistema operacional como uma Unidade de Rede previamente configurada no arquivo “config.xml”.
@@ -18,3 +18,7 @@ O código fonte e o aplicativo estão disponíveis para download em https://github.
 
 Ditst
 https://github.com/hiltonmm/AutoBackup/tree/Desenvolvimento/Aplicativo/Dist
+
+# NOTAS DA VERSÃO
+* FIX: Inicialização dos observadores 
+* FIX: Repetição das sincronização quando detectado alteração nos arquivos dos aplicativos GoogleDrive e NextCloud. (Criado lista de arquivos)

@@ -17,3 +17,7 @@ C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Release\net6.0-wind
 C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Release\net6.0-windows\AutoBkp.pdb
 C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Release\net6.0-windows\AutoBkp.genruntimeconfig.cache
 C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Release\net6.0-windows\ref\AutoBkp.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\bin\Release\net6.0-windows\AutoBkp.dll.manifest
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\bin\Release\net6.0-windows\AutoBkp.application
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Release\net6.0-windows\AutoBkp.dll.manifest
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Release\net6.0-windows\AutoBkp.application
