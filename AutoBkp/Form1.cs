@@ -13,7 +13,9 @@ namespace AutoBkp
         public Form1()
         {
             InitializeComponent();
-           
+            iniciar_observador();
+
+
         }
 
         private const int CP_NOCLOSE_BUTTON = 0x200;
@@ -87,7 +89,7 @@ namespace AutoBkp
                         sync(3);
                         log("Realizando Carga Inicial");
                         alert_CargaInicial.Visible = false;
-                        iniciar_observador();
+                        
                     }
                     else
                     {
@@ -102,16 +104,13 @@ namespace AutoBkp
                             sync(3);
                             log("Realizando carga inicial");
                             alert_CargaInicial.Visible = false;
-                            iniciar_observador();
+                        
                         } else
                         {
                             return;
                         }
                     }
 
-                } else
-                {
-                    iniciar_observador();
                 }
             }
 
@@ -347,17 +346,46 @@ namespace AutoBkp
 
         private void backup(string patch)
         {
-            
 
-            if (patch.Contains("C:\\Users\\"+Environment.UserName+"\\Desktop\\")){
-                sync(1);
-            } else if (patch.Contains("C:\\Users\\"+Environment.UserName+"\\Documents\\")){
-                sync(2);
-            } else if (patch.Contains("C:\\Users\\"+Environment.UserName+"\\Pictures\\")){
-                sync(3);
+
+
+
+            string patch_Desktop = "C:\\Users\\" + Environment.UserName + "\\Desktop\\";
+            string patch_Documents = "C:\\Users\\" + Environment.UserName + "\\Documents\\";
+            string patch_Pictures = "C:\\Users\\" + Environment.UserName + "\\Pictures\\";
+            string[] blacklist = { ".sync_", ".tmp.driveupload" };
+
+            if (patch.Contains(patch_Desktop, StringComparison.CurrentCultureIgnoreCase)){
+                foreach(string ignore in blacklist)
+                {
+                    if (!patch.Contains(patch_Desktop + ignore, StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        sync(1);
+                    }
+                }
+            }
+            
+            if (patch.Contains(patch_Documents, StringComparison.CurrentCultureIgnoreCase))
+            {
+                foreach (string ignore in blacklist)
+                {
+                    if (!patch.Contains(patch_Documents + ignore, StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        sync(2);
+                    }
+                }
             }
 
-            
+            if (patch.Contains(patch_Pictures, StringComparison.CurrentCultureIgnoreCase))
+            {
+                foreach (string ignore in blacklist)
+                {
+                    if (!patch.Contains(patch_Pictures + ignore, StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        sync(3);
+                    }
+                }
+            }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

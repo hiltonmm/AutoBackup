@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AutoBkp/1.0.0": {
+      "AutoBkp/1.0.1": {
         "runtime": {
           "AutoBkp.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "AutoBkp/1.0.0": {
+    "AutoBkp/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

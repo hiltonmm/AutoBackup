@@ -7,7 +7,24 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <ApplicationIcon>arquivo-de-backup.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>hiltonmm@gmail.com</Authors>
+    <Company>Hilton M Moreira</Company>
+    <Product>Auto Backup</Product>
+    <Description>Aplicativo de Backup</Description>
+    <PackageProjectUrl>https://github.com/hiltonmm/AutoBackup</PackageProjectUrl>
+    <Copyright>hiltonmm@gmail.com</Copyright>
+    <RepositoryUrl>https://github.com/hiltonmm/AutoBackup</RepositoryUrl>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="arquivo-de-backup.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
@@ -17,8 +34,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="config.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 

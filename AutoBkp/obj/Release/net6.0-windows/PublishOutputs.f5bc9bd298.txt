@@ -1,0 +1,6 @@
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\Dist\1.0.1\config.xml
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\Dist\1.0.1\AutoBkp.exe
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\Dist\1.0.1\AutoBkp.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\Dist\1.0.1\AutoBkp.deps.json
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\Dist\1.0.1\AutoBkp.runtimeconfig.json
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\Dist\1.0.1\AutoBkp.pdb
