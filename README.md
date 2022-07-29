@@ -15,3 +15,6 @@ O Sincronismo é realizado em todas as ações (Criação, Alteração e Exclusão) e em
 O Aplicativo Auto Backup foi desenvolvido na linguagem C# por Hilton M Moreira, hiltonmm@gmail.com, possui código aberto e pode ser modificado e distribuído livremente, desde que mantido os créditos de autoria.
 
 O código fonte e o aplicativo estão disponíveis para download em https://github.com/hiltonmm/AutoBackup
+
+Ditst
+https://github.com/hiltonmm/AutoBackup/tree/Desenvolvimento/Aplicativo/Dist
