@@ -13,7 +13,9 @@ namespace AutoBkp
         public Form1()
         {
             InitializeComponent();
-           
+            iniciar_observador();
+
+
         }
 
         private const int CP_NOCLOSE_BUTTON = 0x200;
@@ -87,7 +89,7 @@ namespace AutoBkp
                         sync(3);
                         log("Realizando Carga Inicial");
                         alert_CargaInicial.Visible = false;
-                        iniciar_observador();
+                        
                     }
                     else
                     {
@@ -102,16 +104,13 @@ namespace AutoBkp
                             sync(3);
                             log("Realizando carga inicial");
                             alert_CargaInicial.Visible = false;
-                            iniciar_observador();
+                        
                         } else
                         {
                             return;
                         }
                     }
 
-                } else
-                {
-                    iniciar_observador();
                 }
             }
 
