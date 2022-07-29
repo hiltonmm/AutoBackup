@@ -1,0 +1,6 @@
+C:\Users\hilton\Desktop\AutoBkp\config.xml
+C:\Users\hilton\Desktop\AutoBkp\AutoBkp.exe
+C:\Users\hilton\Desktop\AutoBkp\AutoBkp.dll
+C:\Users\hilton\Desktop\AutoBkp\AutoBkp.deps.json
+C:\Users\hilton\Desktop\AutoBkp\AutoBkp.runtimeconfig.json
+C:\Users\hilton\Desktop\AutoBkp\AutoBkp.pdb

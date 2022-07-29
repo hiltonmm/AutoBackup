@@ -16,3 +16,4 @@ C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Debug\net6.0-window
 C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Debug\net6.0-windows\AutoBkp.genruntimeconfig.cache
 C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Debug\net6.0-windows\ref\AutoBkp.dll
 C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\bin\Debug\net6.0-windows\config.xml
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\AutoBkp\obj\Debug\net6.0-windows\AutoBkp.sobre.resources
