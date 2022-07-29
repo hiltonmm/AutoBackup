@@ -1,0 +1,8 @@
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\AutoBkp.pdb
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\config.xml
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\D3DCompiler_47_cor3.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\PenImc_cor3.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\PresentationNative_cor3.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\vcruntime140_cor3.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\wpfgfx_cor3.dll
+C:\Users\hilton\source\repos\hiltonmm\AutoBackup\Aplicativo\AutoBkp.exe
