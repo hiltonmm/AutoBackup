@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<ip>192.168.1.254</ip>
+	<username>user_bkp</username>
+	<passwd>userbkp123</passwd>
+	<drive>Y</drive>
+	<directory>user_bkp</directory>
+</config>
