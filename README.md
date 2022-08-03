@@ -22,3 +22,4 @@ https://github.com/hiltonmm/AutoBackup/tree/Desenvolvimento/Aplicativo/Dist
 # NOTAS DA VERSÃO
 * FIX: Inicialização dos observadores 
 * FIX: Repetição das sincronização quando detectado alteração nos arquivos dos aplicativos GoogleDrive e NextCloud. (Criado lista de arquivos)
+* RecompilaÃ§Ã£o
